@@ -1,0 +1,13 @@
+---
+tabWidth: 2
+printWidth: 100
+useTabs: false
+arrowParens: always
+overrides:
+  - files: "*.component.html"
+    options:
+      parser: "angular"
+  - files: "*.ts"
+    options:
+      singleQuote: true
+      trailingComma: all

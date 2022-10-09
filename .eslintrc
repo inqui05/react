@@ -1,0 +1,21 @@
+{
+  "env": {
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": ["plugin:prettier/recommended"],
+  "parserOptions": {
+    "ecmaVersion": 2022
+  },
+  "rules": {
+    "no-console": "error",
+    "linebreak-style": "off",
+    "max-len": [
+      "warn",
+      {
+        "code": 100
+      }
+    ]
+  }
+}
